@@ -1,0 +1,12 @@
+name: py311-ch11-env
+channels:
+- defaults
+dependencies:
+- python=3.11
+- ipykernel
+- pip
+- pip:
+  - azure-ai-inference==1.0.0b4
+  - azure-ai-ml==1.20.0
+  - azure-identity==1.18.0
+  - python-dotenv==1.0.1
