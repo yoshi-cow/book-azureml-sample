@@ -4,26 +4,26 @@ display_name: Prepare Walmart Data
 version: 1
 type: command
 
-inputs:
-  walmart_data:
+inputs: # 入力
+  walmart_data: # 元データ
     type: uri_file
-  test_split_ratio:
+  test_split_ratio: # データ分割比率のパラメータ
     type: number
-    min: 0
-    max: 1
-    default: 0.2
+    min: 0 # 受け入れ可能な最小値
+    max: 1 # 受け入れ可能な最大値
+    default: 0.2 # デフォルト値
 
-outputs:
+outputs: # 出力
   training_data_path:
     type: uri_folder
   testing_data_path:
     type: uri_folder
 
-code: ./prep
+code: ./prep # コード
 
-environment: azureml:walmart-store-sales-env@latest
+environment: azureml:walmart-store-sales-env@latest # 環境
 
-command: >-
+command: >- # 実行コマンド
   python prep.py
   --input_data_path ${{inputs.walmart_data}}
   --test_split_ratio ${{inputs.test_split_ratio}}

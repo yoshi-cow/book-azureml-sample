@@ -4,19 +4,19 @@ display_name: Train LightGBM Regression Model
 version: 1
 type: command
 
-inputs:
+inputs: # 入力
   training_data_path:
     type: uri_folder
 
-outputs:
+outputs: # 出力
   model_output_path:
     type: mlflow_model
 
-code: ./train
+code: ./train # コード
  
-environment: azureml:walmart-store-sales-env@latest
+environment: azureml:walmart-store-sales-env@latest # 環境
 
-command: >-
+command: >- # 実行コマンド
   python train.py
   --training_data_path ${{inputs.training_data_path}}
   --model_output_path ${{outputs.model_output_path}}

@@ -4,21 +4,21 @@ display_name: Evaluate LightGBM Regression Model
 version: 1
 type: command
 
-inputs:
+inputs: # 入力
   predicted_data_path:
     type: uri_folder
   label_data_path:
     type: uri_folder
 
-outputs:
+outputs: # 出力
   model_performance_report_path:
     type: uri_folder
 
-code: ./eval
+code: ./eval # コード
 
-environment: azureml:walmart-store-sales-env@latest
+environment: azureml:walmart-store-sales-env@latest # 環境
 
-command: >-
+command: >- # 実行コマンド
   python eval.py
   --predicted_data_path ${{inputs.predicted_data_path}}
   --label_data_path ${{inputs.label_data_path}}
