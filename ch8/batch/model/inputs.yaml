@@ -1,4 +1,4 @@
 inputs:
-  walmart_dataset:
+  walmart_data:
     type: uri_file
     path: azureml:Walmart@latest
