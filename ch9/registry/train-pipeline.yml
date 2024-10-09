@@ -2,6 +2,8 @@ $schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
 display_name: walmart-store-sales-train-pipeline
 experiment_name: walmart-store-sales-train-pipeline
+identity:
+  type: user_identity
 
 settings:
   default_compute: azureml:serverless
