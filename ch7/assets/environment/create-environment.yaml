@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: walmart-store-sales-env
+description: ウォルマート売上予測モデルの学習ジョブ用の環境
+tags:
+  lightgbm: "4.3.0"
+conda_file: conda.yaml
+image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04:latest
