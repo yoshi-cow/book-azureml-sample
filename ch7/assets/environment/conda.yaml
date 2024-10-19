@@ -2,7 +2,7 @@ name: azureml-book-ch7-env
 channels:
   - defaults
 dependencies:
-  - python=3.10.4
+  - python=3.11
   - pip=24.0
   - pip: 
     - azureml-mlflow==1.55.0
