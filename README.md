@@ -2,7 +2,10 @@
 
 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」のサンプルプログラムです。
 
-<!-- TODO: 本の表示画像を追加 -->
+技術評論社: https://gihyo.jp/book/2025/978-4-297-14846-1 <br/>
+Amazon: https://amzn.asia/d/0eeMaFT
+
+## サンプルコードのダウンロード
 
 本サンプルコードは、[Zip ファイル](https://github.com/shohei1029/book-azureml-sample/archive/refs/heads/main.zip)としてダウンロードするか、次のコマンドをターミナルで実行してください。
 
@@ -27,3 +30,14 @@ git clone https://github.com/shohei1029/book-azureml-sample
 | 第 11 章: 基盤モデルとモデルカタログ       | [./ch11](./ch11)     |
 | 第 12 章: プロンプトフロー                 | n/a                  |
 | 第 13 章: LLMOps                           | n/a                  |
+
+## 環境構築
+サンプルコードを実行するにあたって、次のクライアント環境を準備する必要があります。詳しくは本書の付録 A をご参照ください。
+
+* Azure CLI
+* Azure Machine Learning用のAzure CLI拡張機能
+* Azure Machine Learning Python SDK
+
+> Azure Machine Learning のコンピューティングインスタンスをクライアントとして用いる場合はインストール済みです。
+
+
