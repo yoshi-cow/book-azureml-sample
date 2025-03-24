@@ -5,6 +5,8 @@
 技術評論社: https://gihyo.jp/book/2025/978-4-297-14846-1 <br/>
 Amazon: https://amzn.asia/d/0eeMaFT
 
+<img src="./book_cover.png" width="300" />
+
 ## サンプルコードのダウンロード
 
 本サンプルコードは、[Zip ファイル](https://github.com/shohei1029/book-azureml-sample/archive/refs/heads/main.zip)としてダウンロードするか、次のコマンドをターミナルで実行してください。
