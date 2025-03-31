@@ -1,4 +1,4 @@
-# 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」 サンプルプログラム
+# 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」サンプルプログラム
 
 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」のサンプルプログラムです。
 
