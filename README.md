@@ -1,6 +1,6 @@
-# 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」サンプルプログラム
+# 「Azure Machine Learning ではじめる機械学習/LLM 活用入門」サンプル
 
-「Azure Machine Learning ではじめる機械学習/LLM 活用入門」のサンプルプログラムです。
+「Azure Machine Learning ではじめる機械学習/LLM 活用入門」の本文で利用しているサンプルコードです。
 
 技術評論社: https://gihyo.jp/book/2025/978-4-297-14846-1 <br/>
 Amazon: https://amzn.asia/d/0eeMaFT
